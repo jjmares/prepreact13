@@ -8,6 +8,41 @@
   </head>
   <body>
     <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+
+    <div class="container mt-5">
+      <h1 class="text-center">Got Games</h1>
+      <div class="mt-4">
+          <!-- Create Form -->
+          <form id="create-form" class="d-flex gap-2">
+              <input type="text" id="game-title" class="form-control" placeholder="Enter game title" required>
+              <select class="form-control" id="game-stars">
+                <option selected>Star Ratings</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+            </select>
+              <button type="submit" class="btn btn-success">Add Game</button>
+          </form>
+      </div>
+      <hr>
+      <!-- Games Table -->
+      <table class="table table-bordered mt-4">
+          <thead>
+              <tr>
+                  <th>ID</th>
+                  <th>Title</th>
+                  <th>Stars</th>
+              </tr>
+          </thead>
+          <tbody id="games-table">
+              <!-- Display games/data -->
+          </tbody>
+      </table>
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

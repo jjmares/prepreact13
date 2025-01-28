@@ -1,0 +1,19 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "title": "NBA 2K25",
+      "stars": "3"
+    },
+    {
+      "id": 2,
+      "title": "Dragon Ball: Sparking! Zero",
+      "stars": "6"
+    },
+    {
+      "id": 3,
+      "title": "Minecraft",
+      "stars": "4.5"
+    }
+  ]
+}
